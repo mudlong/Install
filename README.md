@@ -1,7 +1,7 @@
 # How to Run Algorand Node On Windows 10 Using Windows Subsystem For Linux (WSL 2).
        INSTALLING WSL2
        
-sTEP 1 - Enabling The Windows Subsystem for Linux and Virtual Machine Platform.
+STEP 1 - Enabling The Windows Subsystem for Linux and Virtual Machine Platform.
 
   Open PowerShell as Administrator and Run
 
@@ -15,7 +15,7 @@ or
    look for "Virtual Machine Platform" and Windows Subsystem for Linux and enable them.
    make sure the checkboxes are check and restart your system when prompted.
 
-3 - Update to WSL 2.
+2 - Update to WSL 2.
 
  To download WSL 2 click https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
@@ -29,7 +29,6 @@ or
    version 1707,1903 or 1909 builds can install WSL 2 too – but must first install Windows Update KB4566116.
 
   restart your system at this point or you may find that things don’t work as intended.
-
 3. Set WSL 2 as default.
 
   Open PowerShell as Administrator and run this command to set WSL 2 as the default version of WSL:
